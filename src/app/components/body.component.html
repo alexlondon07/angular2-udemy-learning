@@ -1,17 +1,35 @@
-<div class="container">
-    <div class="jumbotron">
-        <div class="col-sm-8 mx-auto">
-            <h1>Navbar examples</h1>
-            <p>This example is a quick exercise to illustrate how the navbar and its contents work. Some navbars extend the
-                width of the viewport, others are confined within a <code>.container</code>. For positioning of navbars,
-                checkout the
-                <a href="../navbar-top/">top</a> and <a href="../navbar-top-fixed/">fixed top</a> examples.</p>
-            <p>At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the
-                collapsed content.
-            </p>
-            <p>
-                <a class="btn btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
-            </p>
+<div class="jumbotron">
+    <h1 class="display-3">alexlondon07 </h1>
+    <p class="lead">Aprendiendo y practicando Angular2 con el curso de Udemy</p>
+    <p><a class="btn btn-lg btn-success" href="https://alexlondon07.github.io/" role="button">Visitame en mi página personal</a></p>
+</div>
+
+<div class="row marketing">
+    <div class="col-lg-6">
+        <h4>*ngIf</h4>
+        <hr>
+        <button (click)="show = !show"
+            type="button" 
+            class="btn btn-outline-warning btn-block">Mostrar / Ocultar</button>
+        <br>
+
+        <div *ngIf="show">
+            <div class="card card-inverse card-primary mb-3 text-center">
+                <div class="card-block">
+                    <blockquote class="card-blockquote">
+                        <p>"{{ text }}"</p>
+                        <footer>Author <cite title="Source Title">{{  author }}</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
         </div>
+
+    </div>
+
+    <div class="col-lg-6">
+        <h4>*ngFor</h4>
+        <ul class="list-group">
+            <li *ngFor="let item of personajes let i = index" class="list-group-item ">{{ i + 1}} {{ item }}</li>
+        </ul>
     </div>
 </div>
