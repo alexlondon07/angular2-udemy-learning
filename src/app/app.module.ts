@@ -3,22 +3,36 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+//Ruta
+import { APP_ROUTING } from './app.routes';
+
+
+//Servicios
+
+
+//Componentes
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header.component';
-import { BodyComponent } from './components/body.component';
-import { FooterComponent } from './components/footer.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
+
+
+//Servicios
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    BodyComponent,
-    FooterComponent
+    NavbarComponent,
+    HomeComponent,
+    AboutComponent,
+    HeroesComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
