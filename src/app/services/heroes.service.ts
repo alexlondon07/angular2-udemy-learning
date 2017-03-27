@@ -1,3 +1,4 @@
+import { Heroe } from './heroes.service';
 import { Injectable } from '@angular/core';
 
 @Injectable()
@@ -64,9 +65,17 @@ export class HeroesService {
      * @returns
      * @memberOf HeroesService
      */
-    getHeroes():Heroe[] {
+    getHeroes(): Heroe[] {
         try {
             return this.herores;
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    getDetailHeroe(id: number) {
+        try {
+            return this.herores[id];
         } catch (error) {
             console.log(error);
         }
