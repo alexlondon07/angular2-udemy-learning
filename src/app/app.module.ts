@@ -17,6 +17,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeDetailComponent } from './components/heroe-detail/heroe-detail.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 
 //Servicios
@@ -30,6 +31,7 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     HeroesComponent,
     HeroeDetailComponent,
     BuscadorComponent,
+    PipesComponent,
   ],
   imports: [
     BrowserModule,
