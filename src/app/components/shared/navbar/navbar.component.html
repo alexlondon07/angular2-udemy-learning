@@ -24,8 +24,8 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." (keyup.enter)="searchHeroe(buscarTexto.value)" #buscarTexto>
+        <button (click)="searchHeroe(buscarTexto.value)" class="btn btn-outline-success my-2 my-sm-0" type="button">Buscar</button>
       </form>
     </div>
   </nav>

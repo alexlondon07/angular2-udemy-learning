@@ -80,6 +80,22 @@ export class HeroesService {
             console.log(error);
         }
     }
+
+    searchHeroes(data: string):Heroe[] {
+        try {
+            let heroesArr:Heroe[] = [];
+            data = data.toLowerCase();
+            for (let heroe of this.herores) {
+                let name = heroe.nombre.toLowerCase();
+                if (name.indexOf(data) >= 0) {
+                    heroesArr.push(heroe);
+                }
+            }
+            return heroesArr;
+        } catch (error) {
+            console.log(error);
+        }
+    }
 }
 
 export interface Heroe {
