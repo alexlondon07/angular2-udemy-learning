@@ -17,5 +17,20 @@
       <td>lowercase</td>
       <td>{{ name | lowercase }}</td>
     </tr>
+    <tr>
+      <th scope="row">{{ name }}</th>
+      <td>slice:3</td>
+      <td>{{ name | slice:3 }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ name }}</th>
+      <td>slice:0:3</td>
+      <td>{{ name | slice:0:3 }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ areglo }}</th>
+      <td>slice:1:5</td>
+      <td>{{ areglo | slice:1:5 }}</td>
+    </tr>
   </tbody>
 </table>
