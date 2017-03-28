@@ -20,6 +20,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 
 
+import { LOCALE_ID } from '@angular/core';
+
 //Servicios
 
 @NgModule({
@@ -39,7 +41,10 @@ import { PipesComponent } from './components/pipes/pipes.component';
     HttpModule,
     APP_ROUTING
   ],
-  providers: [HeroesService],
+  providers: [
+    { provide: LOCALE_ID, useValue: 'es' },
+    HeroesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

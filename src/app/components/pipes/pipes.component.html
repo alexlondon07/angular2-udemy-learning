@@ -72,10 +72,25 @@
       <td>currency:'EUR':true:'4.0-0'</td>
       <td>{{ salario | currency:'EUR':true:'4.0-0' }}</td>
     </tr>
-        <tr>
+    <tr>
       <th scope="row">{{ valorPromesa }}</th>
       <td>async</td>
       <td>{{ valorPromesa | async }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ fecha }}</th>
+      <td>date</td>
+      <td>{{ fecha | date }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ fecha }}</th>
+      <td>date:'medium'</td>
+      <td>{{ fecha | date:'medium' }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ fecha }}</th>
+      <td>date:'MMMM - dd '</td>
+      <td>{{ fecha | date:'MMMM - dd' }}</td>
     </tr>
   </tbody>
 </table>
