@@ -11,6 +11,7 @@ export class PipesComponent  {
   areglo = [1,2,3,4,5,7,8,9,10];
   PI = Math.PI;
   a:number = 0.234;
+  salario:number = 40000456.789;
 
   constructor() { }
 
