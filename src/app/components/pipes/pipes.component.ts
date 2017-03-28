@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class PipesComponent {
 
   name = 'Alexander Londoño Espejo';
+  name2 = 'emiliANA lonDoño martinEZ';
   areglo = [1, 2, 3, 4, 5, 7, 8, 9, 10];
   PI = Math.PI;
   a: number = 0.234;

@@ -22,7 +22,9 @@ import { PipesComponent } from './components/pipes/pipes.component';
 
 import { LOCALE_ID } from '@angular/core';
 
-//Servicios
+//pipes
+import { PipeCapitalizado } from './pipes/capitalizado.pipe';
+
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import { LOCALE_ID } from '@angular/core';
     HeroeDetailComponent,
     BuscadorComponent,
     PipesComponent,
+    PipeCapitalizado
   ],
   imports: [
     BrowserModule,
