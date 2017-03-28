@@ -3,7 +3,7 @@
     <tr>
       <th>Variable</th>
       <th>Pipe</th>
-      <th>Producto</th>
+      <th>Resultado</th>
     </tr>
   </thead>
   <tbody>
@@ -41,6 +41,16 @@
       <th scope="row">{{ PI }}</th>
       <td>number:'1.0-2'</td>
       <td>{{ PI | number:'1.0-2' }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ a }}</th>
+      <td>percent</td>
+      <td>{{ a | percent }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ a }}</th>
+      <td>percent:'2.2-2' </td>
+      <td>{{ a | percent:'2.2-2' }}</td>
     </tr>
   </tbody>
 </table>
