@@ -72,12 +72,17 @@
       <td>currency:'EUR':true:'4.0-0'</td>
       <td>{{ salario | currency:'EUR':true:'4.0-0' }}</td>
     </tr>
+        <tr>
+      <th scope="row">{{ valorPromesa }}</th>
+      <td>async</td>
+      <td>{{ valorPromesa | async }}</td>
+    </tr>
   </tbody>
 </table>
 
-  <div>
-    <h4>JSON</h4>
-    <pre>
+<div>
+  <h4>JSON</h4>
+  <pre>
     {{ heroe | json }}
     </pre>
-  </div>
+</div>
