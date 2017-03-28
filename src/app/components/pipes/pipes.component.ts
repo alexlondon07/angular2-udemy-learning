@@ -13,6 +13,15 @@ export class PipesComponent  {
   a:number = 0.234;
   salario:number = 40000456.789;
 
+  heroe = {
+    nombre: 'Logan',
+    clave: 'Wolverine',
+    edad: '50',
+    direccion: {
+      calle: '44',
+      casa: '504'
+    }
+  };
   constructor() { }
 
 }
