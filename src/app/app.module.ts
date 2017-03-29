@@ -24,6 +24,8 @@ import { LOCALE_ID } from '@angular/core';
 
 //pipes
 import { PipeCapitalizado } from './pipes/capitalizado.pipe';
+import { ContransenaPipe } from './pipes/contransena.pipe';
+
 
 
 @NgModule({
@@ -36,7 +38,8 @@ import { PipeCapitalizado } from './pipes/capitalizado.pipe';
     HeroeDetailComponent,
     BuscadorComponent,
     PipesComponent,
-    PipeCapitalizado
+    PipeCapitalizado,
+    ContransenaPipe
   ],
   imports: [
     BrowserModule,

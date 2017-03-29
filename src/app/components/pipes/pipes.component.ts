@@ -29,6 +29,7 @@ export class PipesComponent {
   });
 
   fecha = new Date();
+  activar:boolean = true;
 
   constructor() { }
 
