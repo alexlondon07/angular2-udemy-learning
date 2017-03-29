@@ -25,3 +25,16 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Aplication
+
+![home](https://github.com/alexlondon07/angular2-udemy-learning/blob/master/pantallazos/1.png)
+
+![heroes](https://github.com/alexlondon07/angular2-udemy-learning/blob/master/pantallazos/2.png)
+
+![detail](https://github.com/alexlondon07/angular2-udemy-learning/blob/master/pantallazos/3.png)
+
+![search](https://github.com/alexlondon07/angular2-udemy-learning/blob/master/pantallazos/3.png)
+
+![pipes-example](https://github.com/alexlondon07/angular2-udemy-learning/blob/master/pantallazos/4.png)
+
